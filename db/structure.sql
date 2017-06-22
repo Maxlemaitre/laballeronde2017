@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.18, for osx10.12 (x86_64)
 --
--- Host: localhost    Database: sharetribe_development
+-- Host: localhost    Database: sharetribe_development_2017
 -- ------------------------------------------------------
 -- Server version	5.7.18
 
@@ -207,7 +207,7 @@ CREATE TABLE `communities` (
   `uuid` binary(16) NOT NULL,
   `ident` varchar(255) DEFAULT NULL,
   `domain` varchar(255) DEFAULT NULL,
-  `use_domain` tinyint(1) DEFAULT NULL,
+  `use_domain` tinyint(1) NOT NULL DEFAULT '0',
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   `settings` text,
@@ -1604,7 +1604,7 @@ CREATE TABLE `transactions` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-06-15 10:41:32
+-- Dump completed on 2017-06-22 16:03:19
 INSERT INTO schema_migrations (version) VALUES ('20080806070738');
 
 INSERT INTO schema_migrations (version) VALUES ('20080807071903');

@@ -6,7 +6,7 @@
 #  uuid                                       :binary(16)       not null
 #  ident                                      :string(255)
 #  domain                                     :string(255)
-#  use_domain                                 :boolean
+#  use_domain                                 :boolean          default(FALSE), not null
 #  created_at                                 :datetime
 #  updated_at                                 :datetime
 #  settings                                   :text(65535)
