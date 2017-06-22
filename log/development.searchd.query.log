@@ -1,8 +1,0 @@
-[Thu Jun 22 16:10:08.862 2017] 0.004 sec 0.004 sec [ext2/3/ext 34 (0,24)] [`listing_core`, `listing_delta]
-[Thu Jun 22 16:10:16.053 2017] 0.000 sec 0.000 sec [ext2/3/ext 34 (24,24)] [`listing_core`, `listing_delta]
-[Thu Jun 22 16:10:23.688 2017] 0.000 sec 0.000 sec [ext2/4/ext 0 (0,24)] [`listing_core`, `listing_delta]
-[Thu Jun 22 16:10:28.796 2017] 0.000 sec 0.000 sec [ext2/3/ext 0 (0,24)] [`listing_core`, `listing_delta]
-[Thu Jun 22 16:10:34.476 2017] 0.000 sec 0.000 sec [ext2/3/ext 24 (0,24)] [`listing_core`, `listing_delta]
-[Thu Jun 22 16:10:46.809 2017] 0.000 sec 0.000 sec [ext2/4/ext 1 (0,24)] [`listing_core`, `listing_delta]
-[Thu Jun 22 16:18:04.563 2017] 0.000 sec 0.000 sec [ext2/3/ext 33 (0,24)] [`listing_core`, `listing_delta]
-[Thu Jun 22 16:18:09.037 2017] 0.000 sec 0.000 sec [ext2/3/ext 33 (24,24)] [`listing_core`, `listing_delta]
