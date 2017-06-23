@@ -21,3 +21,4 @@ class Booking < ActiveRecord::Base
     super.reject { |c| c.name == "end_on_exclusive" }
   end
 end
+
